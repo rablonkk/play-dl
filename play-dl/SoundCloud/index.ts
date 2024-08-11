@@ -111,10 +111,9 @@ export async function stream(url: string, quality?: number): Promise<SoundCloudS
  * @returns client ID
  */
 export async function getFreeClientID(): Promise<string> {
-    const data: any = await request('https://soundcloud.com/', {headers: {}}).catch(err => err);
+    const data: any = await request('https://soundcloud.com/', { headers: {} }).catch((err) => err);
 
-    if (data instanceof Error)
-        throw new Error("Failed to get response from soundcloud.com: " + data.message);
+    if (data instanceof Error) throw new Error('Failed to get response from soundcloud.com: ' + data.message);
 
     const splitted = data.split('<script crossorigin src="');
     const urls: string[] = [];
