@@ -1,5 +1,5 @@
 {
-  "name": "play-dl",
+  "name": "@rablonkk/play-dl",
   "version": "1.9.8",
   "description": "YouTube, SoundCloud, Spotify, Deezer searching and streaming for discord-js bots",
   "main": "dist/index.js",
@@ -42,12 +42,12 @@
     "dist/*"
   ],
   "devDependencies": {
-    "@types/node": "^20.14.6",
+    "@types/node": "^22.2.0",
     "prettier": "^3.3.2",
     "tsup": "^8.1.0",
-    "typedoc": "^0.25.13",
+    "typedoc": "^0.26.5",
     "typedoc-plugin-extras": "^3.0.0",
-    "typedoc-plugin-missing-exports": "^2.3.0",
+    "typedoc-plugin-missing-exports": "^3.0.0",
     "typescript": "^5.4.5"
   },
   "dependencies": {
