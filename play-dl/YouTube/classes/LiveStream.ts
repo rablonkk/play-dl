@@ -389,7 +389,7 @@ export class Timer {
     /**
      * setTimeout function
      */
-    private timer: NodeJS.Timeout;
+    private timer: NodeJS.Timer;
     /**
      * Callback to be executed once timer finishes.
      */
