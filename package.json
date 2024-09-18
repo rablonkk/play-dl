@@ -1,6 +1,6 @@
 {
     "name": "@rablonkk/play-dl",
-    "version": "2.0.0",
+    "version": "2.0.1",
     "description": "YouTube, SoundCloud, Spotify, Deezer searching and streaming for discord-js bots",
     "main": "dist/index.js",
     "typings": "dist/index.d.ts",
@@ -29,7 +29,7 @@
         "soundcloud",
         "deezer"
     ],
-    "author": "Killer069",
+    "author": "rablonkk",
     "license": "GPL-3.0",
     "bugs": {
         "url": "https://github.com/rablonkk/play-dl/issues"
