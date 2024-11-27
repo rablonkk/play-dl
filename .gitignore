@@ -6,3 +6,4 @@ examples/package-lock.json
 examples/package.json
 docs/
 package-lock.json
+yarn.lock
