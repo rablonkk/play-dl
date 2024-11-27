@@ -21,40 +21,40 @@ You can contact us for support on our [chat server](https://discord.gg/8H3xWcv3D
 **Node.js 16.0.0 or newer is required.**
 
 ```bash
-npm install play-dl@latest
-pnpm add play-dl@latest
-yarn add play-dl@latest
+npm install @rablonkk/play-dl@latest
+pnpm add @rablonkk/play-dl@latest
+yarn add @rablonkk/play-dl@latest
 ```
 
 ### Importing
 
 **TypeScript:**
 ```ts
-import play from 'play-dl'; // Everything
+import play from '@rablonkk/play-dl'; // Everything
 
-import { video_basic_info, stream } from 'play-dl'; // Individual functions
+import { video_basic_info, stream } from '@rablonkk/play-dl'; // Individual functions
 ```
 
 **CommonJS modules:**
 ```js
-const play = require('play-dl'); // Everything
+const play = require('@rablonkk/play-dl'); // Everything
 
 // Individual functions by using destructuring
-const { video_basic_info, stream } = require('play-dl');
+const { video_basic_info, stream } = require('@rablonkk/play-dl');
 ```
 
 **ES6 modules:**
 ```ts
-import play from 'play-dl'; // Everything
+import play from '@rablonkk/play-dl'; // Everything
 
-import { video_basic_info, stream } from 'play-dl'; // Individual functions
+import { video_basic_info, stream } from '@rablonkk/play-dl'; // Individual functions
 ```
 
 ## **Compatibility issues** - discord-player
     
-Because discord-player doesn't work with raw opus packets you need to enable the compatibility mode in `play-dl`, if you want to use both frameworks together.
+Because discord-player doesn't work with raw opus packets you need to enable the compatibility mode in `@rablonkk/play-dl`, if you want to use both frameworks together.
 
-- To fix the playback of YouTube videos with `discord-player`, you can disable some of play-dl's optimisations and fixes by setting the `discordPlayerCompatibility` option for `stream` and `stream_from_info` to true
+- To fix the playback of YouTube videos with `discord-player`, you can disable some of @rablonkk/play-dl's optimisations and fixes by setting the `discordPlayerCompatibility` option for `stream` and `stream_from_info` to true
 
 - The `discordPlayerCompatiblity` option might break the playback of long YouTube videos.
 
