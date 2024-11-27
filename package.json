@@ -1,6 +1,6 @@
 {
   "name": "@rablonkk/play-dl",
-  "version": "1.9.8",
+  "version": "1.10.0",
   "description": "YouTube, SoundCloud, Spotify, Deezer searching and streaming for discord-js bots",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
